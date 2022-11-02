@@ -1,28 +1,28 @@
 # SquidCandyInvaders
 The final project for the Basics of Game Development course.
 
-#AboutTheProject
+# #AboutTheProject
 This project was made during one-two week as a final project for the Basics of Game Development course at Tallinn University.
 
 The project's primary focus is to create a Space Invaders game from scratch.
 
 The important keys are
 
-1. Graphics - 
+## 1. Graphics
 Use different graphics
 Correct image file types are fully compatible* with the Unity game engine.
 Dynamic background effect with the particle system.
 *The dimensions/resolutions for the images need to be corrected and adjusted.
 
-2. Audio -
+## 2. Audio
 - Different SFX and BGM
 - Correct audio file types for SFX and loops fully compatible with the Unity game engine.
 
-3. UI 
+## 3. UI 
 - Multiple UI elements used.
 - Different ending UI elements, which have dynamically changed the value in it. 
 
-4. Mechanics
+## 4. Mechanics
 - Enemies attack.
 - Enemies approach the player.
 - Player can move up/down.
@@ -32,11 +32,11 @@ Dynamic background effect with the particle system.
 - Easter Egg.
 - Different Endings.
 
-#AboutAssets
+# #AboutAssets
 
 All assets (graphics, sound, and music) are downloaded free from the websites providing free assets. One of the music is originally made by me.
 
-#FurtherContributionsAndCurrentBugs
+# #FurtherContributionsAndCurrentBugs
 - The enemy movement shifts outside the screen bounds to the right side.
 - Clean up the code from unused parts.
 - Hard-coded magic numbers that affect the game design element.
@@ -50,6 +50,7 @@ All assets (graphics, sound, and music) are downloaded free from the websites pr
 - In Candies script, the number 18 is a magic number and should be placed in a variable.
 - In Candies script, in candyFiresOnTheDoll function, since the second argument of the Random.Range() function affects the game's difficulty; it's better to have it as a variable that can be set free from the inspector or stored as a variable in some way, not to have it as a magic number.
 
-#RunTheGame
-Play the game here: http://www.tlu.ee/~artyom/BOGD/SquidCandyVSDoll/
+# #RunTheGame
+Play the game here: https://www.tlu.ee/~artyom/BOGD/SquidCandyVSDoll/
 The game is created on Unity/C# for WebGL.
+
