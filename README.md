@@ -51,6 +51,6 @@ All assets (graphics, sound, and music) are downloaded free from the websites pr
 - In Candies script, in candyFiresOnTheDoll function, since the second argument of the Random.Range() function affects the game's difficulty; it's better to have it as a variable that can be set free from the inspector or stored as a variable in some way, not to have it as a magic number.
 
 # #RunTheGame
-Play the game here: https://www.tlu.ee/~artyom/BOGD/SquidCandyVSDoll/
+Play the game here: https://rockart13.itch.io/squid-candy-invaders.
 The game is created on Unity/C# for WebGL.
 
